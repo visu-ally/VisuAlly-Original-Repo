@@ -10,31 +10,31 @@ Specific name might be forthcoming
 
 
 2. 
-Student name: Vivethen Balachandiran
-Github account name: VivethenUni
-Student number: 300245080
-[Student account](https://github.com/VivethenUni)
+Student name: Vivethen Balachandiran<br>
+Github account name: VivethenUni<br>
+Student number: 300245080<br>
+[Student account](https://github.com/VivethenUni)<br>
 
  
 
-Student name: Kevin Naveen
-Github account name: Kevin-Nav07
-Student number: 300235454
-[Student account](https://github.com/Kevin-Nav07)
+Student name: Kevin Naveen<br>
+Github account name: Kevin-Nav07<br>
+Student number: 300235454<br>
+[Student account](https://github.com/Kevin-Nav07)<br>
 
  
 
-Student name: Faiqah Sikder
-GitHub account name: FaiqahSikder
-Student number: 300228337
-[Student account](https://github.com/FaiqahSikder)
+Student name: Faiqah Sikder<br>
+GitHub account name: FaiqahSikder<br>
+Student number: 300228337<br>
+[Student account](https://github.com/FaiqahSikder)<br>
 
  
 
-Student name:
-Github account name:
-Student number:
-(Put Student account link here)
+Student name:<br>
+Github account name:<br>
+Student number:<br>
+(Put Student account link here)<br>
 
  
 
