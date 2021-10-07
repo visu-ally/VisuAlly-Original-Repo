@@ -1,3 +1,5 @@
+# VisuAlly-Original-Repo
+
 This is a README for VisuAlly.
 
 1. Product and Company name is VisuAlly
@@ -9,15 +11,15 @@ Github account name: VivethenUni
 Student number: 300245080
 [Student account](https://github.com/VivethenUni)
 
-Student name:
-Github account name:
-Student number:
-(Put Student account link here)
+Student name: Kevin Naveen
+Github account name: Kevin-Nav07
+Student number: 300235454
+[Student account](https://github.com/Kevin-Nav07)
 
-Student name:
-Github account name:
-Student number:
-(Put Student account link here)
+Student name: Faiqah Sikder
+GitHub account name: FaiqahSikder
+Student number: 300228337
+[Student account](https://github.com/FaiqahSikder)
 
 Student name:
 Github account name:
