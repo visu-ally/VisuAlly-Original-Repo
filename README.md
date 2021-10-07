@@ -31,10 +31,10 @@ Student number: 300228337<br>
 
  
 
-Student name:<br>
-Github account name:<br>
-Student number:<br>
-(Put Student account link here)<br>
+Student name: Rafael Arif<br>
+Github account name: rafaelarif<br>
+Student number: 300228027<br>
+[Student account](https://github.com/rafaelarif)<br>
 
  
 
