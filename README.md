@@ -32,9 +32,15 @@ Student number: 300228337<br>
 
  
 
+<<<<<<< HEAD
 Student name:Rafael Arif<br>
 Github account name:rafaelarif<br>
 Student number:300228027<br>
+=======
+Student name: Rafael Arif<br>
+Github account name: rafaelarif<br>
+Student number: 300228027<br>
+>>>>>>> 67900a2ce65a09c87489fcee6be02545e3c3bfb1
 [Student account](https://github.com/rafaelarif)<br>
 
  
