@@ -21,6 +21,16 @@ body {
     grid-template-columns: 1fr;
 }
 
+.homepagemain {
+    background-color: #CBE4F9;
+}
+
+.home-page-title {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt;
+}
+
 .logo{
     padding-left: 25px;
     padding-top: 15px;
