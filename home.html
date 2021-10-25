@@ -7,23 +7,47 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <div class="container">
-        <div class="nav-wrapper">
-            <div class="logo">
-                <a href="home.html"><img src="Images/VisuAlly Logo.png" alt="VisuAlly"
-                        style="width:90px; height: 68px;"></a>
-            </div>
-            <div class="nav-center">
-                <div class="nav-link-wrapper">
-                    <a href="product.html">Product</a>
+<body style = "color: #314452;font-family: Georgia">
+    <section class =  "landing" style = "background-image: url('Images/home.png');"> 
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <a href="home.html"><img src="Images/VisuAlly Logo.png" alt="VisuAlly"
+                            style="width:90px; height: 68px;"></a>
                 </div>
-                <div class="nav-link-wrapper">
-                    <a href="contact.html">Contact</a>
+                <div class="nav-center">
+                    <div class="nav-link-wrapper">
+                        <a href="product.html">Product</a>
+                    </div>
+                    <div class="nav-link-wrapper">
+                        <a href="contact.html">Contact</a>
+                    </div>
                 </div>
             </div>
         </div>
+        <h2 class="big-text">
+            VisuAlly
+        </h2>
+
+    </section>
+    <div class = "intro">
+        <div class="intro-text">
+            <h1 class = "hide">
+                <span class = "text">Creating inovation</span>
+            </h1>
+            <h1 class = "hide">
+                <span class = "text">for everyday</span>
+            </h1>
+            <h1 class = "hide">
+                <span class = "text">people.</span>
+            </h1>
+        </div>
     </div>
+
+
+    <div class = "slider"></div>
+
+
     <div class="homepagemain">
         <h1 class="home-page-title" align="center">Visu-Ally</h1>
     </div>
@@ -48,7 +72,17 @@
             console.log('Scrolled!');
         })
     </script>
-    
+     
+
+    <script 
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" 
+      integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" 
+      crossorigin="anonymous" 
+      referrerpolicy="no-referrer">
+    </script>
+    <script src = "app.js">
+
+    </script>
 </body>
 
 </html>
