@@ -1,3 +1,10 @@
 Color Scheme:
+For our color scheme, we have decided to go with a combination of the sky-blue color(#CBE4F9) and dark blue/black color(#394955).
+Sky-blue will be used as the dominant color as it is very care-free and healthy unlike colors such as red or orange which can emanate hostility or solidity.
+We want to be able to convey a healthy website which is asociated with glasses and cleanliness, naturally allowing us to pick sky-blue.
+In contrast, dark blue is used for text and as a secondary color to clash with the sky-blue.
 
-Typogrophy: 
+We are also attempting to implement a tertiary color such as pink/orange, but it is hard to determine it's utilization when the website has not yet been finished
+
+
+Typogrophy: It is in collective agreement that we should use the "Georgia" font. We may implement another font for certain cases later into development
