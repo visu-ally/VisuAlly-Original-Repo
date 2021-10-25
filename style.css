@@ -20,7 +20,7 @@ body {
 .landing{
     
     min-height: 100vh;
-    background: url("./Images/glassesplaceholdeer.jpg");
+    
     background-size: cover;
     padding: 0rem 5rem;
    
@@ -36,7 +36,7 @@ body {
     
 }
 .intro{
-    background: black;
+    background: #394955;
     position: fixed;
     top:0;
     left:0;
@@ -54,7 +54,7 @@ body {
 
 }
 .slider{
-    background: rgb(160, 181, 243);
+    background:#CBE4F9;
     position: fixed;
     top: 0;
     left: 0;
@@ -64,7 +64,7 @@ body {
 
 }
 .hide{
-    background: black;
+    background: #394955;
     overflow:hidden;
 }
 .hide span{
@@ -132,11 +132,11 @@ body {
 }
 
 .nav-link-wrapper:hover {
-    border-bottom: 1px solid #394955;
+    border-bottom: 1px solid #F7B0D8;
 }
 
 .nav-link-wrapper a:hover {
-    color: #394955
+    color: #F7B0D8;
 }
 
 table, th, td {
@@ -197,6 +197,15 @@ table, th, td {
     justify-content: center;
     opacity: 0;
     transition: opacity 0.5s;
+}
+.image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+
+}
+
+.image__overlay:hover > *{
+    transform: translateY(0);
 }
 
 .image__overlay:hover{
