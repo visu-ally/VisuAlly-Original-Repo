@@ -7,39 +7,85 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <div class="container">
-        <div class="nav-wrapper">
-            <div class="logo">
-                <a href="home.html"><img src="Images/VisuAlly Logo.png" alt="VisuAlly"
-                        style="width:90px; height: 68px;"></a>
-            </div>
-            <div class="nav-center">
-                <div class="nav-link-wrapper">
-                    <a href="product.html">Product</a>
+<body style = "color: #314452;font-family: Georgia">
+    <section class =  "landing" style = "background-image: url('Images/home.png');"> 
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <a href="home.html"><img src="Images/VisuAlly Logo.png" alt="VisuAlly"
+                            style="width:90px; height: 68px;"></a>
                 </div>
-                <div class="nav-link-wrapper">
-                    <a href="contact.html">Contact</a>
+                <div class="nav-center">
+                    <div class="nav-link-wrapper">
+                        <a href="product.html">Product</a>
+                    </div>
+                    <div class="nav-link-wrapper">
+                        <a href="contact.html">Contact</a>
+                    </div>
+                    <div class="nav-link-wrapper">
+                        <a href="Pricing.html">Pricing</a>
+                    </div>
                 </div>
             </div>
         </div>
+        <h2 class="big-text">
+            VisuAlly
+        </h2>
+
+    </section>
+    <div class = "intro">
+        <div class="intro-text">
+            <h1 class = "hide">
+                <span class = "text">Creating inovation</span>
+            </h1>
+            <h1 class = "hide">
+                <span class = "text">for everyday</span>
+            </h1>
+            <h1 class = "hide">
+                <span class = "text">people.</span>
+            </h1>
+        </div>
     </div>
+
+
+    <div class = "slider"></div>
+
+
     <div class="homepagemain">
         <h1 class="home-page-title" align="center">Visu-Ally</h1>
     </div>
 
-    <p align="center">Description of our product</p>
+    <p align="center">Our amazing and incredibly useful product will clean your glasses overnight! That's right: all on its own. All you have to do is put the cloth over your glasses, and you'll wake up to squeaky clean specs! How cool is that?! It's just like magic!</p>
     <div class="image">
         <img src="/Images/glasses.jpg" alt="Glasses" width="500" class="center">
     </div>
 
-
+<div class="homepagemain">
     <h3 align="center">Reviews</h3>
-
+</div>
     <p align="center">Look at all of our amazing reviews!</p>
     <div class="image">
         <img src="(maybe add image here?)" alt="Another image" width="500" height="200" class="center">
     </div>
+
+    // fix scrollbar later
+    // add some other js?
+    <script>
+        window.addEventListener('scroll', () => {
+            console.log('Scrolled!');
+        })
+    </script>
+     
+
+    <script 
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" 
+      integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" 
+      crossorigin="anonymous" 
+      referrerpolicy="no-referrer">
+    </script>
+    <script src = "app.js">
+
+    </script>
 </body>
 
 </html>
