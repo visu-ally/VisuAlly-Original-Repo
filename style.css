@@ -81,9 +81,9 @@ body {
     background-color: #CBE4F9;
 }
 
-.home-page-title {
+.home-page-title h1{
     
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
     font-size: 20pt;
 }
 
