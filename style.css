@@ -296,7 +296,7 @@ table, th, td {
 .contact-form-border{
     width:100px;
     height: 10px;
-    background: #394955;
+    background: #0793ff;
     margin: 40px auto;
 }
 
@@ -343,4 +343,37 @@ textarea.contact-form-text{
 .contact-form-btn:hover{
     background:#f79fd1
 
+}
+
+table{
+   
+    background: #32495A;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 12px 12px 0 0;
+  
+    
+    overflow:hidden;
+
+    box-shadow: 0 12px 5px rgba(32,32,32,0.3);
+
+
+
+}
+
+th,td{
+    border-collapse: collapse;
+    border-style: hidden!important;
+    border-spacing: 0;
+    border-radius: 0px 0px 0 0;
+    padding: 10px 15px;
+}
+th{
+    background: #F7B0D8;
+    color: #32495A;
+    
+}
+td{
+    
 }
