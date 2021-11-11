@@ -93,8 +93,21 @@
                 <option data-price="34.99">50</option>
                 <option data-price="64.99">100</option>
             </select>
-            <span id="item-price">0.00</span>
-            <script src = "price.js">
+            <span id="$">$</span><span id="item-price">9.99</span>
+
+            <script type="text/javascript" src="jquery-3.6.0.js"></script>
+            <script type="text/javascript">
+            var basePrice = 0;
+
+            $(".calculate").change(function () {
+                newPrice = basePrice;
+                $(".calculate option:selected").each(function () {
+                    newPrice += parseFloat($(this).data('price'));
+                    console.log(typeof newPrice);
+                });
+                newPrice = newPrice.toFixed(2);
+                $("#item-price").html(newPrice);
+            });
             </script>
 
         <li>Fastest Version</li>
