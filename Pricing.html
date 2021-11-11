@@ -64,7 +64,7 @@
     <div class="columns">
         <ul class="price">
         <li class="header">Sweet Cleans</li>
-        <li class="grey">$9.99</li>
+        <li class="grey">$4.99</li>
         <li>Standard Version</li>
         <li>7-8 hours to clean lenses</li>
         <li>No need to use special liquid to recharge the cloth</li>
@@ -75,7 +75,7 @@
     <div class="columns">
         <ul class="price">
         <li class="header" style="background-color:#156eb7">Swift Wash</li>
-        <li class="grey">$24.99</li>
+        <li class="grey">$9.99</li>
         <li>Faster Version</li>
         <li>About 5 minutes to clean lenses</li>
         <li>Must soak for about 3-4 hours before reusing</li>
@@ -86,7 +86,17 @@
     <div class="columns">
         <ul class="price">
         <li class="header">Wipes To Go</li>
-        <li class="grey">$ 49.99</li>
+        <li class="grey">
+            <select class="form-control calculate" id="size" name="size">
+                <option data-price="9.99">10</option>
+                <option data-price="19.99">25</option>
+                <option data-price="34.99">50</option>
+                <option data-price="64.99">100</option>
+            </select>
+            <span id="item-price">0.00</span>
+            <script src = "price.js">
+            </script>
+
         <li>Fastest Version</li>
         <li>About 1 minute to clean lenses</li>
         <li>One time use and biodigradable for easy disposal</li>
