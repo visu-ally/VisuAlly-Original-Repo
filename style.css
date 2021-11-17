@@ -145,6 +145,12 @@ body {
     font-size: 20pt;
 }
 
+.flex-image-center{
+    display: flex !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .logo{
     padding-left: 25px;
     padding-top: 15px;
