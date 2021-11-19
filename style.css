@@ -139,11 +139,71 @@ body {
     background-color: #CBE4F9;
 }
 
-.home-page-title h1{
-    
-    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
-    font-size: 20pt;
+.home-page-title{
+    border: 5px solid #CBE4F9;
+    background-color: #CBE4F9;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Georgia;
+    font-size: 40px;
+    text-align: center;
 }
+
+.homepage-container{
+    padding-bottom:10px;
+}
+
+.slidecolumn {
+    float: left;
+    width: 30%;
+    margin: 5px;
+  }
+
+  .sliderow{
+      margin-left:auto;
+      margin-right:auto;
+    width:fit-content ;
+  }
+
+  .sliderow::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  * {box-sizing: border-box;}
+  
+  .overlay-image-container {
+    position: relative;
+    max-width: 300px;
+  }
+  
+  .comparison-image {
+    display: block;
+    height: auto;
+  }
+  
+  .overlay-image {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0,0,0,0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition:.5s ease;
+    opacity:0;
+    /*color: white;*/
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .overlay-image-container:hover .overlay-image {
+    opacity: 1;
+  }
+
+
+
+
 
 .flex-image-center{
     display: flex !important;
